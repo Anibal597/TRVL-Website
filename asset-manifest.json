@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Website/static/css/main.280ea6c0.css",
-    "main.js": "/React-Website/static/js/main.bacc21e0.js",
-    "static/media/video-6.mp4": "/React-Website/static/media/video-6.8220af260d25eb23b32a.mp4",
-    "static/media/img-home.jpg": "/React-Website/static/media/img-home.c034239ee9a63564602b.jpg",
-    "static/media/img-8.jpg": "/React-Website/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
-    "index.html": "/React-Website/index.html",
-    "main.280ea6c0.css.map": "/React-Website/static/css/main.280ea6c0.css.map",
-    "main.bacc21e0.js.map": "/React-Website/static/js/main.bacc21e0.js.map"
+    "main.css": "/TRVL-Website/static/css/main.23a1ffdf.css",
+    "main.js": "/TRVL-Website/static/js/main.bea22016.js",
+    "static/media/img-2.jpg": "/TRVL-Website/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
+    "static/media/img-home.jpg": "/TRVL-Website/static/media/img-home.c034239ee9a63564602b.jpg",
+    "static/media/img-8.jpg": "/TRVL-Website/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
+    "static/media/img-1.jpg": "/TRVL-Website/static/media/img-1.4fb9f59289d3c0c4d606.jpg",
+    "index.html": "/TRVL-Website/index.html",
+    "main.23a1ffdf.css.map": "/TRVL-Website/static/css/main.23a1ffdf.css.map",
+    "main.bea22016.js.map": "/TRVL-Website/static/js/main.bea22016.js.map"
   },
   "entrypoints": [
-    "static/css/main.280ea6c0.css",
-    "static/js/main.bacc21e0.js"
+    "static/css/main.23a1ffdf.css",
+    "static/js/main.bea22016.js"
   ]
 }
