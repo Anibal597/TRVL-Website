@@ -1,3 +1,2134 @@
+# 📁 PROJECT EXPORT FOR LLMs
+
+## 📊 Project Information
+
+- **Project Name**: `React-Website`
+- **Generated On**: 2025-08-18 08:05:36 (Europe/Madrid / GMT+02:00)
+- **Total Files Processed**: 54
+- **Export Tool**: Easy Whole Project to Single Text File for LLMs v1.1.0
+- **Tool Author**: Jota / José Guilherme Pandolfi
+
+### ⚙️ Export Configuration
+
+| Setting | Value |
+|---------|-------|
+| Language | `en` |
+| Max File Size | `1 MB` |
+| Include Hidden Files | `false` |
+| Output Format | `both` |
+
+## 🌳 Project Structure
+
+```
+├── 📁 public/
+│   ├── 📁 images/
+│   │   ├── 📄 FINAL-TRVL.svg (1.08 KB)
+│   │   ├── 📄 img-08.jpg (433.87 KB)
+│   │   ├── 📄 img-1.jpg (320.11 KB)
+│   │   ├── 📄 img-10.jpg (82.09 KB)
+│   │   ├── 📄 img-11.jpeg (253.05 KB)
+│   │   ├── 📄 img-12.jpeg (91.76 KB)
+│   │   ├── 📄 img-13.jpeg (54.5 KB)
+│   │   ├── 📄 img-14.jpeg (56.45 KB)
+│   │   ├── 📄 img-15.jpg (178.07 KB)
+│   │   ├── 📄 img-2.jpg (3.05 MB)
+│   │   ├── 📄 img-20.jpeg (88.06 KB)
+│   │   ├── 📄 img-21.jpeg (159.33 KB)
+│   │   ├── 📄 img-22.jpeg (79.29 KB)
+│   │   ├── 📄 img-3.jpg (94.33 KB)
+│   │   ├── 📄 img-4.jpg (2.97 MB)
+│   │   ├── 📄 img-9.jpg (466.32 KB)
+│   │   ├── 📄 img-home.jpg (612.23 KB)
+│   │   └── 📄 TRVL.png (6.44 KB)
+│   ├── 📁 videos/
+│   │   ├── 📄 video-1.mp4 (4.71 MB)
+│   │   ├── 📄 video-2.mp4 (16.87 MB)
+│   │   ├── 📄 video-3.mp4 (9.29 MB)
+│   │   └── 📄 video-5.mp4 (3.59 MB)
+│   ├── 📄 favicon.ico (3.78 KB)
+│   ├── 📄 index.html (799 B)
+│   ├── 📄 manifest.json (492 B)
+│   └── 📄 robots.txt (67 B)
+├── 📁 src/
+│   ├── 📁 Components/
+│   │   └── 📁 Pages/
+│   │       ├── 📄 Button.css (892 B)
+│   │       ├── 📄 Button.js (752 B)
+│   │       ├── 📄 CardItem.js (527 B)
+│   │       ├── 📄 Cards.css (2.06 KB)
+│   │       ├── 📄 Cards.js (1.68 KB)
+│   │       ├── 📄 Footer.css (2.13 KB)
+│   │       ├── 📄 Footer.js (2.91 KB)
+│   │       ├── 📄 HeroSection.css (1.25 KB)
+│   │       ├── 📄 HeroSection.js (856 B)
+│   │       ├── 📄 Home.js (323 B)
+│   │       ├── 📄 Navbar.css (2.02 KB)
+│   │       ├── 📄 Navbar.js (2.21 KB)
+│   │       ├── 📄 Newsletter.css (1.53 KB)
+│   │       ├── 📄 Newsletter.js (1.02 KB)
+│   │       ├── 📄 Services.css (1000 B)
+│   │       ├── 📄 Services.js (1.64 KB)
+│   │       ├── 📄 SignUp.css (1.33 KB)
+│   │       ├── 📄 SignUp.js (1013 B)
+│   │       ├── 📄 Video.css (886 B)
+│   │       └── 📄 Video.js (545 B)
+│   ├── 📄 App.css (883 B)
+│   ├── 📄 App.js (845 B)
+│   ├── 📄 index.js (231 B)
+│   └── 📄 video-6.mp4 (4.23 MB)
+├── 📄 jsconfing.json (83 B)
+├── 📄 package-lock.json (654.05 KB)
+├── 📄 package.json (1.06 KB)
+└── 📄 README.md (3.28 KB)
+```
+
+## 📑 Table of Contents
+
+**Project Files:**
+
+- [📄 public/index.html](#📄-public-index-html)
+- [📄 public/manifest.json](#📄-public-manifest-json)
+- [📄 public/robots.txt](#📄-public-robots-txt)
+- [📄 src/Components/Pages/Button.css](#📄-src-components-pages-button-css)
+- [📄 src/Components/Pages/Button.js](#📄-src-components-pages-button-js)
+- [📄 src/Components/Pages/CardItem.js](#📄-src-components-pages-carditem-js)
+- [📄 src/Components/Pages/Cards.css](#📄-src-components-pages-cards-css)
+- [📄 src/Components/Pages/Cards.js](#📄-src-components-pages-cards-js)
+- [📄 src/Components/Pages/Footer.css](#📄-src-components-pages-footer-css)
+- [📄 src/Components/Pages/Footer.js](#📄-src-components-pages-footer-js)
+- [📄 src/Components/Pages/HeroSection.css](#📄-src-components-pages-herosection-css)
+- [📄 src/Components/Pages/HeroSection.js](#📄-src-components-pages-herosection-js)
+- [📄 src/Components/Pages/Home.js](#📄-src-components-pages-home-js)
+- [📄 src/Components/Pages/Navbar.css](#📄-src-components-pages-navbar-css)
+- [📄 src/Components/Pages/Navbar.js](#📄-src-components-pages-navbar-js)
+- [📄 src/Components/Pages/Newsletter.css](#📄-src-components-pages-newsletter-css)
+- [📄 src/Components/Pages/Newsletter.js](#📄-src-components-pages-newsletter-js)
+- [📄 src/Components/Pages/Services.css](#📄-src-components-pages-services-css)
+- [📄 src/Components/Pages/Services.js](#📄-src-components-pages-services-js)
+- [📄 src/Components/Pages/SignUp.css](#📄-src-components-pages-signup-css)
+- [📄 src/Components/Pages/SignUp.js](#📄-src-components-pages-signup-js)
+- [📄 src/Components/Pages/Video.css](#📄-src-components-pages-video-css)
+- [📄 src/Components/Pages/Video.js](#📄-src-components-pages-video-js)
+- [📄 src/App.css](#📄-src-app-css)
+- [📄 src/App.js](#📄-src-app-js)
+- [📄 src/index.js](#📄-src-index-js)
+- [📄 jsconfing.json](#📄-jsconfing-json)
+- [📄 package-lock.json](#📄-package-lock-json)
+- [📄 package.json](#📄-package-json)
+- [📄 README.md](#📄-readme-md)
+
+---
+
+## 📈 Project Statistics
+
+| Metric | Count |
+|--------|-------|
+| Total Files | 54 |
+| Total Directories | 6 |
+| Text Files | 30 |
+| Binary Files | 24 |
+| Total Size | 48.29 MB |
+
+### 📄 File Types Distribution
+
+| Extension | Count |
+|-----------|-------|
+| `.js` | 13 |
+| `.css` | 10 |
+| `.jpg` | 9 |
+| `.jpeg` | 7 |
+| `.mp4` | 5 |
+| `.json` | 4 |
+| `.svg` | 1 |
+| `.png` | 1 |
+| `.ico` | 1 |
+| `.html` | 1 |
+| `.txt` | 1 |
+| `.md` | 1 |
+
+## 💻 File Code Contents
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `public/images/FINAL-TRVL.svg`
+- `public/images/img-08.jpg`
+- `public/images/img-1.jpg`
+- `public/images/img-10.jpg`
+- `public/images/img-11.jpeg`
+- `public/images/img-12.jpeg`
+- `public/images/img-13.jpeg`
+- `public/images/img-14.jpeg`
+- `public/images/img-15.jpg`
+- `public/images/img-2.jpg`
+- `public/images/img-20.jpeg`
+- `public/images/img-21.jpeg`
+- `public/images/img-22.jpeg`
+- `public/images/img-3.jpg`
+- `public/images/img-4.jpg`
+- `public/images/img-9.jpg`
+- `public/images/img-home.jpg`
+- `public/images/TRVL.png`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `public/videos/video-1.mp4`
+- `public/videos/video-2.mp4`
+- `public/videos/video-3.mp4`
+- `public/videos/video-5.mp4`
+
+### <a id="📄-public-index-html"></a>📄 `public/index.html`
+
+**File Info:**
+- **Size**: 799 B
+- **Extension**: `.html`
+- **Language**: `html`
+- **Location**: `public/index.html`
+- **Relative Path**: `public`
+- **Created**: 2025-08-02 17:59:33 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 23:25:03 (Europe/Madrid / GMT+02:00)
+- **MD5**: `81958edef3680d93afef9133231809e1`
+- **SHA256**: `f982723633c1093a144a5809b59ea97e275dc461585d0a7f37416ae12b4fb25d`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="" />
+    <link rel="icon" href="./images/FINAL-TRVL.svg" />
+    <script src="https://kit.fontawesome.com/4f38632aaf.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet" />
+    <title>TRVL</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+```
+
+---
+
+### <a id="📄-public-manifest-json"></a>📄 `public/manifest.json`
+
+**File Info:**
+- **Size**: 492 B
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `public/manifest.json`
+- **Relative Path**: `public`
+- **Created**: 2025-08-02 17:59:33 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-02 17:59:36 (Europe/Madrid / GMT+02:00)
+- **MD5**: `d9d975cebe2ec20b6c652e1e4c12ccf0`
+- **SHA256**: `50b3d8c3903af3f78d871b94557ab14f4e39ca192eaca3d2cfa863c867279a14`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
+
+```
+
+---
+
+### <a id="📄-public-robots-txt"></a>📄 `public/robots.txt`
+
+**File Info:**
+- **Size**: 67 B
+- **Extension**: `.txt`
+- **Language**: `text`
+- **Location**: `public/robots.txt`
+- **Relative Path**: `public`
+- **Created**: 2025-08-02 17:59:33 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-02 17:59:36 (Europe/Madrid / GMT+02:00)
+- **MD5**: `fa1ded1ed7c11438a9b0385b1e112850`
+- **SHA256**: `90d24bc3bf698ac1e173739502298ccca72adf1f564fab05f484b8c48d1cadd2`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `public/favicon.ico`
+
+### <a id="📄-src-components-pages-button-css"></a>📄 `src/Components/Pages/Button.css`
+
+**File Info:**
+- **Size**: 892 B
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/Components/Pages/Button.css`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-15 05:36:18 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 09:01:07 (Europe/Madrid / GMT+02:00)
+- **MD5**: `b8f01b48053314eebbafacb48469b253`
+- **SHA256**: `58066508ee83e8d0cafdbea826eb174383ed4ea362ede0d18841c497af50e9b0`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+:root {
+  --primary: #fff;
+  --primary-hover: #ff4500;
+  --text-dark: #242424;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  transition: all 0.3s ease-out;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: var(--text-dark);
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover {
+  background-color: var(--primary);
+  color: var(--text-dark);
+}
+
+.btn--watch-trailer {
+  background-color: var(--primary);
+  color: var(--text-dark);
+}
+
+.btn--watch-trailer:hover {
+  background-color: #00bfff;
+  color: #fff;
+}
+```
+
+---
+
+### <a id="📄-src-components-pages-button-js"></a>📄 `src/Components/Pages/Button.js`
+
+**File Info:**
+- **Size**: 752 B
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/Components/Pages/Button.js`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-15 05:36:25 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 09:00:20 (Europe/Madrid / GMT+02:00)
+- **MD5**: `40359f17421b54370c3eabf74b5003fa`
+- **SHA256**: `bfd3a1db741834e48873561402280630a7fa1db7117e61bc8879beaaf97fa027`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import React from 'react';
+import './Button.css';
+import { Link } from 'react-router-dom';
+
+const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
+const SIZES = ['btn--medium', 'btn--large'];
+
+export const Button = ({
+  children,
+  type,
+  onClick,
+  buttonStyle,
+  buttonSize,
+  className
+}) => {
+  const checkButtonStyle = STYLES.includes(buttonStyle)
+    ? buttonStyle
+    : STYLES[0];
+
+  const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
+
+  return (
+    <Link to='/sign-up' className='btn-mobile'>
+      <button
+        className={`btn ${checkButtonStyle} ${checkButtonSize} ${className ? className : ''}`}
+        onClick={onClick}
+        type={type}
+      >
+        {children}
+      </button>
+    </Link>
+  );
+};
+```
+
+---
+
+### <a id="📄-src-components-pages-carditem-js"></a>📄 `src/Components/Pages/CardItem.js`
+
+**File Info:**
+- **Size**: 527 B
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/Components/Pages/CardItem.js`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-15 08:06:24 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 23:23:27 (Europe/Madrid / GMT+02:00)
+- **MD5**: `017ab69c4bff5afd4a3a50c069512d96`
+- **SHA256**: `68ceb73fbc5d5dc1328eb55fab85758712de9cbe05db42c8bed7d12f1409ae90`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+function CardItem(props) {
+  return (
+    <li className='cards__item'>
+    <Link className='cards__item__link' to={props.path}>
+      <figure className='cards__item__pic-wrap' data-category={props.label}>
+        <img src={props.src} alt='Travel' className='cards__item__img' />
+      </figure>
+      <div className='cards__item__info'>
+        <h5 className='cards__item__text'>{props.text}</h5>
+      </div>
+    </Link>
+  </li>
+  )
+}
+
+export default CardItem
+```
+
+---
+
+### <a id="📄-src-components-pages-cards-css"></a>📄 `src/Components/Pages/Cards.css`
+
+**File Info:**
+- **Size**: 2.06 KB
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/Components/Pages/Cards.css`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-15 08:06:59 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 23:15:13 (Europe/Madrid / GMT+02:00)
+- **MD5**: `bee706a513209698597c5b2f9567a672`
+- **SHA256**: `9c3dd4ad858f45e248ebb96b9a16d091e91d08918eaea141557c9206ae2959bc`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+.cards {
+    padding: 4rem;
+    background: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .cards__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .cards__items {
+    margin-bottom: 24px;
+  }
+  
+  .cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+  }
+  
+  .cards__item__link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .cards__item__pic-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
+  }
+
+  .fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+  }
+
+  .cards__item__pic-wrap::after {
+    content: attr(data-category);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1f98f4;
+    box-sizing: border-box;
+  }
+
+  .cards__item__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: all 0.2s linear;
+  }
+
+  .cards__item__img:hover {
+    transform: scale(1.1);
+  }
+
+  .cards__item__info {
+    padding: 20px 30px 30px;
+  }
+
+  .cards__item__text {
+    color: #252e48;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }
+```
+
+---
+
+### <a id="📄-src-components-pages-cards-js"></a>📄 `src/Components/Pages/Cards.js`
+
+**File Info:**
+- **Size**: 1.68 KB
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/Components/Pages/Cards.js`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-15 08:06:46 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-18 08:03:50 (Europe/Madrid / GMT+02:00)
+- **MD5**: `b8900a8c2084d20a8b95a32f419919f2`
+- **SHA256**: `c0eff7c920b1d367e9becb09c847327bd0ff6609e02b009ee123d98cb737fd43`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import React from 'react';
+import './Cards.css';
+import CardItem from './CardItem';
+
+function Cards() {
+  return (
+    <div className='cards'>
+      <h1>Check out these EPIC Destinations!</h1>
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
+            <CardItem
+              src={`${process.env.PUBLIC_URL}/images/img-1.jpg`}
+              text='Explore the stunning Italian coastline, with charming villages and sparkling waters'
+              label='Adventure'
+              path='/services'
+            />
+            <CardItem
+              src={`${process.env.PUBLIC_URL}/images/img-2.jpg`}
+              text='Travel the Islands of Bali on a private cruise, enjoying beautiful beaches and sunsets'
+              label='Luxury'
+              path='/services'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src={`${process.env.PUBLIC_URL}/images/img-3.jpg`}
+              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              label='Relaxing'
+              path='/services'
+            />
+            <CardItem
+              src={`${process.env.PUBLIC_URL}/images/img-4.jpg`}
+              text='Experience Football on Top of the Himilayan Mountains'
+              label='Adventure'
+              path='/products'
+            />
+            <CardItem
+              src={`${process.env.PUBLIC_URL}/images/img-08.jpg`}
+              text='Ride through the Sahara Desert on a guided camel tour'
+              label='Adrenaline'
+              path='/sign-up'
+            />
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Cards;
+```
+
+---
+
+### <a id="📄-src-components-pages-footer-css"></a>📄 `src/Components/Pages/Footer.css`
+
+**File Info:**
+- **Size**: 2.13 KB
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/Components/Pages/Footer.css`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-16 10:03:12 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 19:49:46 (Europe/Madrid / GMT+02:00)
+- **MD5**: `2165b09985acc79783407a3b3dde7717`
+- **SHA256**: `987d7e3af26e55c7b8752ebe7084ab224a554f3bb8e28a557078f401e7a40974`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+.footer-container {
+    background-color: #242424;
+    padding: 1.5rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    padding: 16px 0;
+    box-sizing: border-box;
+}
+
+.footer-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    flex: 1;
+    margin: 0 16px;
+    box-sizing: border-box;
+}
+.footer-link-items h2 {
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.footer-link-items a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.footer-link-items a:hover {
+    color: #e9e9e9;
+    transition: 0.3s ease-out;
+}
+
+.footer-email-form h2 {
+    margin-bottom: 32px;
+}
+
+.footer-input::placeholder {
+    color: #b1b1b1;
+}
+
+.social-icon-link {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.social-media {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.social-logo {
+    color: #ffffff;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-self: center;
+    margin-bottom: 16px;
+}
+
+.website-rights {
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.btn {
+    width: 100%;
+}
+
+@media screen and (max-width: 820px) {
+    .footer-links {
+        flex-wrap: wrap;
+        padding-top: 2rem;
+        justify-content: center;
+    }
+    .footer-link-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-link-items {
+        width: 45%;
+        margin: 8px;
+        align-items: center;
+        text-align: center;
+    }
+}
+```
+
+---
+
+### <a id="📄-src-components-pages-footer-js"></a>📄 `src/Components/Pages/Footer.js`
+
+**File Info:**
+- **Size**: 2.91 KB
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/Components/Pages/Footer.js`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-16 10:03:06 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 17:18:01 (Europe/Madrid / GMT+02:00)
+- **MD5**: `ad222148b1ac14d88f553ba559d1472a`
+- **SHA256**: `420ec229bfa3e151cc7fa7dc0d7d063cda11a54918a4d2ace8bfffefed447127`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import React from 'react';
+import './Footer.css';
+import { Link } from 'react-router-dom';
+
+function Footer() {
+  return (
+    <div className='footer-container'>
+      <div class='footer-links'>
+        <div className='footer-link-wrapper'>
+          <div class='footer-link-items'>
+            <h2>About Us</h2>
+            <Link to='/sign-up'>How it works</Link>
+            <Link to='/'>Testimonials</Link>
+            <Link to='/'>Investors</Link>
+            <Link to='/'>Terms of Service</Link>
+          </div>
+          <div class='footer-link-items'>
+            <h2>Contact Us</h2>
+            <Link to='/'>Contact</Link>
+            <Link to='/'>Support</Link>
+            <Link to='/'>Destinations</Link>
+            <Link to='/'>Sponsorships</Link>
+          </div>
+        </div>
+        <div className='footer-link-wrapper'>
+          <div class='footer-link-items'>
+            <h2>Videos</h2>
+            <Link to='/'>Submit Video</Link>
+            <Link to='/'>Ambassadors</Link>
+            <Link to='/'>Agency</Link>
+            <Link to='/'>Influencer</Link>
+          </div>
+          <div class='footer-link-items'>
+            <h2>Social Media</h2>
+            <Link to='/'>Instagram</Link>
+            <Link to='/'>Facebook</Link>
+            <Link to='/'>Youtube</Link>
+            <Link to='/'>Twitter</Link>
+          </div>
+        </div>
+      </div>
+      <section class='social-media'>
+        <div class='social-media-wrap'>
+          <div class='footer-logo'>
+            <Link to='/' className='social-logo'>
+              TRVL
+              <i class='fab fa-typo3' />
+            </Link>
+          </div>
+          <small class='website-rights'>TRVL. Inc © 2025</small>
+          <div class='social-icons'>
+            <Link
+              class='social-icon-link facebook'
+              to='/'
+              target='_blank'
+              aria-label='Facebook'
+            >
+              <i class='fab fa-facebook-f' />
+            </Link>
+            <Link
+              class='social-icon-link instagram'
+              to='/'
+              target='_blank'
+              aria-label='Instagram'
+            >
+              <i class='fab fa-instagram' />
+            </Link>
+            <Link
+              class='social-icon-link youtube'
+              to='/'
+              target='_blank'
+              aria-label='Youtube'
+            >
+              <i class='fab fa-youtube' />
+            </Link>
+            <Link
+              class='social-icon-link twitter'
+              to='/'
+              target='_blank'
+              aria-label='Twitter'
+            >
+              <i class='fab fa-twitter' />
+            </Link>
+            <Link
+              class='social-icon-link twitter'
+              to='/'
+              target='_blank'
+              aria-label='LinkedIn'
+ >
+              <i class='fab fa-linkedin' />
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default Footer;
+```
+
+---
+
+### <a id="📄-src-components-pages-herosection-css"></a>📄 `src/Components/Pages/HeroSection.css`
+
+**File Info:**
+- **Size**: 1.25 KB
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/Components/Pages/HeroSection.css`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-15 05:38:30 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 08:56:13 (Europe/Madrid / GMT+02:00)
+- **MD5**: `344a55878eea9978a3fb86ec6e4130e5`
+- **SHA256**: `78c0a5137927c0d80cd36e8585e1f2e8053dd3ca4bfe85b1d9ed01a003b59b32`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+
+  .hero-container {
+    background: url('/public/images/img-home.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .hero-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+  .hero-btns {
+    margin-top: 32px;
+  }
+
+  .hero-btns .btn {
+    margin: 6px;
+  }
+
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+
+    .hero-container > p {
+      font-size: 30px;
+    }
+
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+
+    .btn {
+      width: 100%;
+    }
+  }
+```
+
+---
+
+### <a id="📄-src-components-pages-herosection-js"></a>📄 `src/Components/Pages/HeroSection.js`
+
+**File Info:**
+- **Size**: 856 B
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/Components/Pages/HeroSection.js`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-15 05:38:20 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 18:42:39 (Europe/Madrid / GMT+02:00)
+- **MD5**: `1d70c8ce83e171339ffb18d7d7d91a9b`
+- **SHA256**: `1cbc013303b63f426aa47b4454bb9463d4cbdc11a6ac58618d8783bc59d5b7cc`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import React from 'react';
+import '../../App.css';
+import { Button } from './Button';
+import './HeroSection.css';
+
+function HeroSection() {
+  return (
+    <div className='hero-container'>
+      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      <h1>ADVENTURE AWAITS</h1>
+      <p>What are you waiting for?</p>
+      <div className='hero-btns'>
+        <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          GET STARTED
+        </Button>
+        <Button
+          className='btns btn--watch-trailer'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={() => window.location.href='/video'}
+        >
+          WATCH TRAILER <i className='far fa-play-circle' />
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+export default HeroSection;
+```
+
+---
+
+### <a id="📄-src-components-pages-home-js"></a>📄 `src/Components/Pages/Home.js`
+
+**File Info:**
+- **Size**: 323 B
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/Components/Pages/Home.js`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-15 05:44:10 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-16 10:08:12 (Europe/Madrid / GMT+02:00)
+- **MD5**: `cb2243d95cf464e70fdb22d179b2c62d`
+- **SHA256**: `92da2cf6fe2a724abfb26f30e16eb4c10f0e5d0402cc04febae48fa9f5672116`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+```javascript
+import React from 'react';
+import HeroSection from './HeroSection'
+import '../../App.css';
+import Cards from './Cards';
+import Footer from './Footer';
+
+function Home () {
+    return (
+        <>
+        <HeroSection></HeroSection>
+        <Cards></Cards>
+        <Footer></Footer>
+        </>
+    )
+}
+
+export default Home;
+```
+
+---
+
+### <a id="📄-src-components-pages-navbar-css"></a>📄 `src/Components/Pages/Navbar.css`
+
+**File Info:**
+- **Size**: 2.02 KB
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/Components/Pages/Navbar.css`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-15 05:39:45 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 18:17:16 (Europe/Madrid / GMT+02:00)
+- **MD5**: `41b4b197a97ec2d05e9230aea65abf87`
+- **SHA256**: `917e301b03f038e51556b2a4f23bb5245b2166a237e787b01a4bad34c8e1b482`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+.navbar {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1500px;
+  padding: 0 2rem;
+}
+
+.navbar-logo {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.fa-bars, .fa-times {
+  color: #fff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .menu-icon {
+    display: block;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: #242222;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-links {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    margin: 2rem auto;
+    padding: 14px 20px;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #242424;
+  }
+}
+
+```
+
+---
+
+### <a id="📄-src-components-pages-navbar-js"></a>📄 `src/Components/Pages/Navbar.js`
+
+**File Info:**
+- **Size**: 2.21 KB
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/Components/Pages/Navbar.js`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-15 05:39:21 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 18:20:08 (Europe/Madrid / GMT+02:00)
+- **MD5**: `ec15d3e935cfa5dcfdddcc2c8d0ed460`
+- **SHA256**: `9fc86273a6978b67b04358d4b498ec8333762d7d196a2291013a66751e7007a8`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import React, { useState, useEffect } from 'react';
+import { Button } from './Button';
+import { Link, useLocation } from 'react-router-dom';
+import './Navbar.css';
+
+function Navbar() {
+  const location = useLocation();
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+    window.addEventListener('resize', showButton);
+    return () => window.removeEventListener('resize', showButton);
+  }, []);
+
+  return (
+    <>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <Link
+            to='/'
+            className='navbar-logo'
+            onClick={() => {
+              closeMobileMenu();
+              if (location.pathname === '/') {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }
+            }}
+          >
+            TRVL
+            <i className='fab fa-typo3' />
+          </Link>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                Services
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='/newsletter' className='nav-links' onClick={closeMobileMenu}>
+                Newsletter
+              </Link>
+            </li>
+            <li>
+              <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                Sign Up
+              </Link>
+            </li>
+          </ul>
+          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+        </div>
+      </nav>
+    </>
+  );
+}
+
+export default Navbar;
+```
+
+---
+
+### <a id="📄-src-components-pages-newsletter-css"></a>📄 `src/Components/Pages/Newsletter.css`
+
+**File Info:**
+- **Size**: 1.53 KB
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/Components/Pages/Newsletter.css`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-17 17:06:10 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-18 00:03:40 (Europe/Madrid / GMT+02:00)
+- **MD5**: `432bd5dc5579189949b00cd522c8cb3a`
+- **SHA256**: `c60bafed8e46949e513e1fe81f75ac76f8dcc11eb45d0c9b05a7734e074426a0`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+.newsletter-container {
+    background: linear-gradient(135deg, #1a1a1a, #4a4a4a);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+}
+
+.newsletter-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 32px;
+    padding: 24px;
+    color: white;
+    max-width: 700px;
+}
+
+.newsletter-subscription > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.newsletter-subscription-heading {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.newsletter-subscription-text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #bbb;
+}
+
+.input-areas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.newsletter-input {
+    width: 100%;
+    max-width: 380px;
+    padding: 14px 22px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #555;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.newsletter-input:focus {
+    border-color: #000000;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.input-areas button {
+    padding: 10px 28px;
+    border-radius: 12px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: auto;
+    min-width: 150px;
+}
+```
+
+---
+
+### <a id="📄-src-components-pages-newsletter-js"></a>📄 `src/Components/Pages/Newsletter.js`
+
+**File Info:**
+- **Size**: 1.02 KB
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/Components/Pages/Newsletter.js`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-16 09:54:48 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 17:26:54 (Europe/Madrid / GMT+02:00)
+- **MD5**: `acf9f6da5083c6b2430c15d18aaa8111`
+- **SHA256**: `36947db1f718b754c4abcf72b59f21550e6dd624257d0e9246de1140b1254559`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import React from 'react'
+import './Newsletter.css'
+import '../../App.css'
+import { Button } from './Button'
+
+function Newsletter (){
+
+    return (
+        <div className="newsletter-container">
+        <section className='newsletter-subscription'>
+                <p className='newsletter-subscription-heading'>
+                  Join the Adventure newsletter to receive our best vacation deals
+                </p>
+                <p className='newsletter-subscription-text'>
+                  You can unsubscribe at any time.
+                </p>
+                <div className='input-areas'>
+                  <form>
+                    <input
+                      className='newsletter-input'
+                      name='email'
+                      type='email'
+                      placeholder='Your Email'
+                    />
+                    <Button buttonStyle='btn--outline'>Subscribe</Button>
+                  </form>
+                </div>
+              </section>
+              </div>
+    )
+
+
+}
+
+export default Newsletter;
+
+```
+
+---
+
+### <a id="📄-src-components-pages-services-css"></a>📄 `src/Components/Pages/Services.css`
+
+**File Info:**
+- **Size**: 1000 B
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/Components/Pages/Services.css`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-17 22:41:15 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 23:58:56 (Europe/Madrid / GMT+02:00)
+- **MD5**: `c039ec09818eb9a8508a9462ecf5ec49`
+- **SHA256**: `a8a27024ccea9a78fdc099c8df5ff25fc0e856cb7dd2d4e819702073269c8349`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 20px 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #fffbfb;
+}
+
+.services-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #001935;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+.services-subtitle {
+    font-size: 1.25rem;
+    color: #222222;
+    text-align: center;
+    max-width: 700px;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.services-title::before,
+.services-title::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 150px;
+    margin: 15px auto;
+    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+    border-radius: 2px;
+}
+```
+
+---
+
+### <a id="📄-src-components-pages-services-js"></a>📄 `src/Components/Pages/Services.js`
+
+**File Info:**
+- **Size**: 1.64 KB
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/Components/Pages/Services.js`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-16 09:56:35 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-18 08:03:28 (Europe/Madrid / GMT+02:00)
+- **MD5**: `eda13be7ceac2f85330f96c37cf5fb3d`
+- **SHA256**: `73f11866e89c63f917f934e255ca67596addf581805625e93da1d0a15eaf6ac4`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import React from 'react';
+import './Services.css';
+import './Cards.css';
+import CardItem from './CardItem';
+import Footer from './Footer';
+
+function Services() {
+  return (
+    <>
+    <div className="services-container">
+      <h1 className="services-title">Our Services</h1>
+      <p className="services-subtitle">Everything you need to plan your perfect trip</p>
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
+            <CardItem
+              src={`${process.env.PUBLIC_URL}/images/img-15.jpg`}
+              text='Seamless flight bookings to get you anywhere in the world with ease'
+              label='Flights'
+              path='/services'
+            />
+            <CardItem
+              src={`${process.env.PUBLIC_URL}/images/img-20.jpeg`}
+              text='Stay in hand-picked hotels and resorts tailored to your needs and taste'
+              label='Hotels'
+              path='/services'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src={`${process.env.PUBLIC_URL}/images/img-21.jpeg`}
+              text='Custom travel itineraries built to match your dreams and schedule'
+              label='Custom Trips'
+              path='/services'
+            />
+            <CardItem
+              src={`${process.env.PUBLIC_URL}/images/img-22.jpeg`}
+              text='Luxury cruises and yacht experiences for an unforgettable ocean journey'
+              label='Cruises'
+              path='/services'
+            />
+          </ul>
+        </div>
+      </div>
+    </div>
+    <Footer />
+    </>
+  );
+}
+
+export default Services;
+```
+
+---
+
+### <a id="📄-src-components-pages-signup-css"></a>📄 `src/Components/Pages/SignUp.css`
+
+**File Info:**
+- **Size**: 1.33 KB
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/Components/Pages/SignUp.css`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-17 17:20:00 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-18 00:03:27 (Europe/Madrid / GMT+02:00)
+- **MD5**: `2c49e0faeaf46de7e40b0e8055bffead`
+- **SHA256**: `edf214ac992da334d28980f64e5c23aa1d81a174cd1f8d60e18be87044d03ce0`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+.SignUp-container {
+    background: linear-gradient(135deg, #1a1a1a, #4a4a4a);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+}
+
+.SignUp-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 32px;
+    padding: 24px;
+    color: white;
+    max-width: 700px;
+}
+
+.SignUp-subscription > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.SignUp-subscription-heading {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.SignUp-subscription-text {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #bbb;
+}
+
+.input-areas {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.SignUp-input {
+    padding: 14px 22px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #555;
+    font-size: 18px;
+    width: 100%;
+    max-width: 380px;
+    transition: all 0.3s ease;
+}
+
+.SignUp-input:focus {
+    border-color: #000000;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.input-areas button {
+    margin-top: 15px;
+}
+```
+
+---
+
+### <a id="📄-src-components-pages-signup-js"></a>📄 `src/Components/Pages/SignUp.js`
+
+**File Info:**
+- **Size**: 1013 B
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/Components/Pages/SignUp.js`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-16 09:57:01 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 17:36:20 (Europe/Madrid / GMT+02:00)
+- **MD5**: `c89aa63d3222d057303c4ec35623ec75`
+- **SHA256**: `1ec403c1b756cd332fe746b8af7abfdcc38400a3071b220005f304716b1fb32b`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import React from 'react'
+import './SignUp.css'
+import '../../App.css'
+import { Button } from './Button'
+
+function SignUp (){
+
+    return (
+        <div className="SignUp-container">
+        <section className='SignUp-subscription'>
+                <p className='SignUp-subscription-heading'>
+                Join the TRVL Adventure Club
+                </p>
+                <p className='SignUp-subscription-text'>
+                Get exclusive access to our vacation deals, travel tips and early offers.
+                </p>
+                <div className='input-areas'>
+                  <form>
+                    <input
+                      className='SignUp-input'
+                      name='email'
+                      type='email'
+                      placeholder='Your Email'
+                    />
+                    <Button buttonStyle='btn--outline'>Sign Up</Button>
+                  </form>
+                </div>
+              </section>
+              </div>
+    )
+
+
+}
+
+export default SignUp;
+
+```
+
+---
+
+### <a id="📄-src-components-pages-video-css"></a>📄 `src/Components/Pages/Video.css`
+
+**File Info:**
+- **Size**: 886 B
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/Components/Pages/Video.css`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-17 18:41:30 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 19:25:47 (Europe/Madrid / GMT+02:00)
+- **MD5**: `c06d0eb07c300571418ea3da182cdebb`
+- **SHA256**: `99b4794cc95ea610e4d36d64a94028ab6cd92b2e9d97eb20c686c43c1e9854b0`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+.video-element {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    max-height: 70vh;
+    object-fit: contain;
+    background-color: #000;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    display: block;
+  }
+
+  .video-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background:  rgba(0, 0, 0, 0.4)
+  }
+
+  .back-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+  }
+
+  .back-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s;
+  }
+
+  .back-link a:hover {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+```
+
+---
+
+### <a id="📄-src-components-pages-video-js"></a>📄 `src/Components/Pages/Video.js`
+
+**File Info:**
+- **Size**: 545 B
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/Components/Pages/Video.js`
+- **Relative Path**: `src/Components/Pages`
+- **Created**: 2025-08-17 18:40:46 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 19:09:02 (Europe/Madrid / GMT+02:00)
+- **MD5**: `0252bcebf5a6783e4279166eebec3ceb`
+- **SHA256**: `3d69c51a4c1e991877c835e1685a7eb3ac4cbbd20c531ae6b3248aebbf8f4574`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+```javascript
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Video.css';
+import video6 from '../../video-6.mp4';
+
+function Video() {
+  return (
+    <div className='video-page-container'>
+      <video
+        src= {video6}
+        autoPlay
+        controls
+        loop
+        muted
+        className='video-element'
+      >
+        Your browser does not support the video tag.
+      </video>
+      <div className='back-link'>
+        <Link to='/'>← Back to Home</Link>
+      </div>
+    </div>
+  );
+}
+
+export default Video;
+
+
+
+```
+
+---
+
+### <a id="📄-src-app-css"></a>📄 `src/App.css`
+
+**File Info:**
+- **Size**: 883 B
+- **Extension**: `.css`
+- **Language**: `css`
+- **Location**: `src/App.css`
+- **Relative Path**: `src`
+- **Created**: 2025-08-02 17:59:33 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-17 08:49:05 (Europe/Madrid / GMT+02:00)
+- **MD5**: `669c5475207366feb5b106ebcf71e8e3`
+- **SHA256**: `bed1bcea927ab5c11e7cda9a5f3b6d0c5c582beea3c3499235061936c2641663`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```css
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+  .services {
+    background-image:url('/public/images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .products {
+    background-image: url('/public/images/img-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .sign-up {
+    background-image: url('/public/images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+```
+
+---
+
+### <a id="📄-src-app-js"></a>📄 `src/App.js`
+
+**File Info:**
+- **Size**: 845 B
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/App.js`
+- **Relative Path**: `src`
+- **Created**: 2025-08-02 17:59:33 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-18 08:05:35 (Europe/Madrid / GMT+02:00)
+- **MD5**: `f8e46a7c736169100b59be1bbaf70315`
+- **SHA256**: `68aaa6fcd1428daf623c337d446b9627610e8a12cdd5ee7665560abe9b760491`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './Components/Pages/Navbar';
+import Home from './Components/Pages/Home';
+import './App.css';
+import Services from './Components/Pages/Services';
+import SignUp from './Components/Pages/SignUp';
+import Newsletter from './Components/Pages/Newsletter';
+import Video from './Components/Pages/Video';
+
+function App() {
+  return (
+    <Router basename="/React-Website">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/newsletter" element={<Newsletter />} />
+        <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/video" element={<Video/>} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+```
+
+---
+
+### <a id="📄-src-index-js"></a>📄 `src/index.js`
+
+**File Info:**
+- **Size**: 231 B
+- **Extension**: `.js`
+- **Language**: `javascript`
+- **Location**: `src/index.js`
+- **Relative Path**: `src`
+- **Created**: 2025-08-02 17:59:33 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-15 06:09:39 (Europe/Madrid / GMT+02:00)
+- **MD5**: `3f90be6c84f833bdab0aa4ed4636f97d`
+- **SHA256**: `b4ee33ba033bcf0fa3177fb840ce40f6d29e8f4d5b93a6a6ba962439b6e2f226`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `src/video-6.mp4`
+
+### <a id="📄-jsconfing-json"></a>📄 `jsconfing.json`
+
+**File Info:**
+- **Size**: 83 B
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `jsconfing.json`
+- **Relative Path**: `root`
+- **Created**: 2025-08-15 05:54:11 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-15 06:09:43 (Europe/Madrid / GMT+02:00)
+- **MD5**: `e0450274e9be073abaf69a8df1340e31`
+- **SHA256**: `b7526f753fb1c4df0e24141304394b88a4ce94f430e0a77a1187637928f56d47`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+    "compilerOptions": {
+      "baseUrl": "src"
+    },
+    "include": ["src"]
+  }
+```
+
+---
+
+### <a id="📄-package-lock-json"></a>📄 `package-lock.json`
+
+**File Info:**
+- **Size**: 654.05 KB
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `package-lock.json`
+- **Relative Path**: `root`
+- **Created**: 2025-08-02 17:59:36 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-18 07:24:19 (Europe/Madrid / GMT+02:00)
+- **MD5**: `b8982907923aab7eeacbffa3c3eebead`
+- **SHA256**: `9e86388219832cac786c1ebdd909a4e395fb1780234f25f93bfdff95738e90cb`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
 {
   "name": "react-website",
   "version": "0.1.0",
@@ -17730,3 +19861,169 @@
     }
   }
 }
+
+```
+
+---
+
+### <a id="📄-package-json"></a>📄 `package.json`
+
+**File Info:**
+- **Size**: 1.06 KB
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `package.json`
+- **Relative Path**: `root`
+- **Created**: 2025-08-02 17:59:12 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-18 07:26:07 (Europe/Madrid / GMT+02:00)
+- **MD5**: `d674a7734f8ce59811d879eade47de9c`
+- **SHA256**: `b393b9e6454759ed2a7e46f066c00174bc35d4a158b5e222e455e5a93d425dec`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+  "name": "react-website",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://Anibal597.github.io/React-Website",
+  "dependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.7.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
+
+```
+
+---
+
+### <a id="📄-readme-md"></a>📄 `README.md`
+
+**File Info:**
+- **Size**: 3.28 KB
+- **Extension**: `.md`
+- **Language**: `text`
+- **Location**: `README.md`
+- **Relative Path**: `root`
+- **Created**: 2025-08-02 17:59:33 (Europe/Madrid / GMT+02:00)
+- **Modified**: 2025-08-02 17:59:36 (Europe/Madrid / GMT+02:00)
+- **MD5**: `33822368bfb3ad3de6fceb9cd76aa0dd`
+- **SHA256**: `70eafbc7a5fd466aa3213b5a7e1b2a41383cbe5d4e6fc5f4582efc58bdb509d1`
+- **Encoding**: ASCII
+
+**File code content:**
+
+````markdown
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+````
+
+---
+

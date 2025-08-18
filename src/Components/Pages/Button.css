@@ -1,0 +1,54 @@
+:root {
+  --primary: #fff;
+  --primary-hover: #ff4500;
+  --text-dark: #242424;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  transition: all 0.3s ease-out;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: var(--text-dark);
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover {
+  background-color: var(--primary);
+  color: var(--text-dark);
+}
+
+.btn--watch-trailer {
+  background-color: var(--primary);
+  color: var(--text-dark);
+}
+
+.btn--watch-trailer:hover {
+  background-color: #00bfff;
+  color: #fff;
+}
