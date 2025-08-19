@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/TRVL-Website/static/css/main.fcd2af7e.css",
+    "main.css": "/TRVL-Website/static/css/main.62a1c0e0.css",
     "main.js": "/TRVL-Website/static/js/main.e962b747.js",
     "static/media/img-2.jpg": "/TRVL-Website/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-home.jpg": "/TRVL-Website/static/media/img-home.c034239ee9a63564602b.jpg",
     "static/media/img-8.jpg": "/TRVL-Website/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
     "static/media/img-1.jpg": "/TRVL-Website/static/media/img-1.4fb9f59289d3c0c4d606.jpg",
     "index.html": "/TRVL-Website/index.html",
-    "main.fcd2af7e.css.map": "/TRVL-Website/static/css/main.fcd2af7e.css.map",
+    "main.62a1c0e0.css.map": "/TRVL-Website/static/css/main.62a1c0e0.css.map",
     "main.e962b747.js.map": "/TRVL-Website/static/js/main.e962b747.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcd2af7e.css",
+    "static/css/main.62a1c0e0.css",
     "static/js/main.e962b747.js"
   ]
 }
